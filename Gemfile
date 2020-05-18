@@ -8,8 +8,8 @@ gem 'rouge'
 gem 'unicorn'
 gem 'lanyon', git: "https://github.com/hsbt/lanyon", ref: "b84d5338b7e4138319311591c41ae41a66dcd3e8"
 gem 'rack-rewrite'
-gem 'rack-ssl'
-gem 'rack-protection'
+gem 'rack-ssl', '>= 1.4.1'
+gem 'rack-protection', '>= 2.0.7'
 
 group :production do
   gem "sqreen"
